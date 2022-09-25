@@ -2,7 +2,7 @@ public class ClassesAndObjects { // может быть один
     public static void main(String[] args) {
         Person man1 = new Person();
 
-        man1.setName("Олег"); // 1 пункт
+        man1.setNameAndAge("Олег", man1.age); // 1 пункт
         man1.age = 43;
         man1.speak();
 
@@ -13,8 +13,8 @@ public class ClassesAndObjects { // может быть один
 
         Person man3 = new Person();
         String s1 = "Никита";
-        man3.setName(s1);
-        man3.setAge(32);
+        man3.setNameAndAge(s1, 40);
+
         man3.speak();
         // если попытаемся в какой-то тип данных вызвать метод с void
         // то ничего не получится, так как void возвращает ничто
@@ -49,13 +49,9 @@ class Person { // может быть несколько
         return yearsTR;
     }
 
-    void setName(String username){
+    void setNameAndAge(String username, int userage){
         name = username;
+        age = userage;
     }
-
-    void setAge(int userage){
-        age=userage;
-    }
-
 
 }
