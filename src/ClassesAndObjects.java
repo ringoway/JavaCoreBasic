@@ -17,7 +17,7 @@ public class ClassesAndObjects { // может быть один
 
         man3.speak();
         // если попытаемся в какой-то тип данных вызвать метод с void
-        // то ничего не получится, так как void возвращает ничто
+        // то ничего не получится, так как void возвращает ничто int = int
         int year1 = man1.calculateYearsToRetirement();
         int year2 = man2.calculateYearsToRetirement();
         int year3 = man3.calculateYearsToRetirement();
