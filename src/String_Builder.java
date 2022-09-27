@@ -18,6 +18,8 @@ public class String_Builder {
         sb.append("my ");
         sb.append("friend!");
         System.out.println(sb.toString());
+        sb.append("1").append("2"); //method change
+
 
     }
 }
