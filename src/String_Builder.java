@@ -18,6 +18,10 @@ public class String_Builder {
         sb.append("my ");
         sb.append("friend!");
         System.out.println(sb.toString());
+        sb.append("1").append("2"); //method change
+
+        System.out.printf("Hello Strings %5d", 32);
+        System.out.printf("You \n %.2f", 43.23967);
 
     }
 }
