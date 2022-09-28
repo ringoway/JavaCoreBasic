@@ -20,6 +20,8 @@ public class String_Builder {
         System.out.println(sb.toString());
         sb.append("1").append("2"); //method change
 
+        System.out.printf("Hello Strings %5d", 32);
+        System.out.printf("You \n %.2f", 43.23967);
 
     }
 }
