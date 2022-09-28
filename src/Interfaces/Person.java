@@ -7,10 +7,9 @@ public class Person implements Info {
         this.name = name;
     }
 
-
-    public void sayHello(){
+    /* public void sayHello(){
         System.out.println("I say 'Hello'");
-    }
+    } */
 
     public void showInfo() {
         System.out.println("Name is "+this.name);
