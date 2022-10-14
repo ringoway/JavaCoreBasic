@@ -1,5 +1,7 @@
 package polymorphism;
 
+import sun.font.EAttribute;
+
 public class Main {
     public static void main(String[] args) {
         Animal animal = new Animal();
@@ -13,12 +15,15 @@ public class Main {
         dog.bark();
         cat.eat();
         dog.eat();
+        System.out.println("");
 
-        Hello(dog);
+        Eat(dog);
+        Eat(cat);
+        Eat(animal);
 
 
     }
-    public static void Hello(Animal animal){
+    public static void Eat(Animal animal){
         animal.eat();
     }
 }
