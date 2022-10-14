@@ -15,8 +15,11 @@ public class Main {
         dog.bark();
         cat.eat();
         dog.eat();
+        System.out.println("");
 
         Eat(dog);
+        Eat(cat);
+        Eat(animal);
 
 
     }
