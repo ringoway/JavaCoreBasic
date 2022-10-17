@@ -12,17 +12,17 @@ public class ClassesAndObject_SetAndGet {
     }
 }
 class People {
-    private String name;
+    private String login;
     private int age;
 
     public void setName(String userName){ // сеттер
         if (userName.isEmpty()){
             System.out.println("Ты ввел пустое имя");
         } else {
-        name = userName;} //
+        login = userName;} //
     }
     public String getName(){ // геттер
-        return name;
+        return login;
     }
     public void setAge(int userAge){
         if(userAge<0){
@@ -34,6 +34,6 @@ class People {
         return age;
     }
     void speak() {
-        System.out.println("Привет, меня зовут "+name+", мне "+age+" лет");
+        System.out.println("Привет, меня зовут "+login+", мне "+age+" лет");
     }
 }
